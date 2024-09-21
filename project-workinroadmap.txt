@@ -1,0 +1,62 @@
+Here is the task plan in text format based on the image:
+
+---
+
+1. Navbar (middle menu is not required): Logo & button with icon. ✅
+
+2. Banner: Background image above the background: heading, paragraph, and link. Clicking the button will navigate the user to the PH paribahan section. ✅
+
+3. Optional: 3 cards below the banner. ✅
+
+4. Best offer for you: Coupon code generation. See all buttons below the two coupon cards. ✅
+
+5. (Hard) PH paribahan section: Design like Figma. ✅
+   - Title & details ✅
+   - Bus logo and info ✅
+   - Available seat ✅
+   - Route static ✅
+   - Departure time static ✅
+   - Others are static ✅
+   - Right section: Price section ✅
+   - Left section:
+     - Select your seat icon will be gray ✅
+     - Show total available seat in green ✅
+   - Right section:
+     - When clicking any seat on the left, it will be added to the right section:
+       - Seat background will be green ✅
+       - Text color will be white ✅
+       - Right side seat count will increase ✅
+       - Available seat will decrease ✅
+   - Total price calculation ✅
+   - (Challenge Part): Coupon input section and apply button (button disabled by default) ✅
+   - Grand total price calculation ✅
+   - Other input fields like Figma are optional ✅
+   - Next button:
+     - Disabled by default. Active whenever a seat is selected and a phone number is provided.
+     - On clicking the next button, a modal will appear and reset the "select your seat" section ✅
+
+6. Footer is optional. ✅
+
+---
+
+Challenge part:
+- Coupon will activate when a person selects 4 tickets.
+- One ticket will be purchasable one time.
+- The user can't purchase more than 4 tickets.
+- Coupon will apply based on the name: NEW50 / Couple 20.
+- Show the discounted price below the total price. By default, it won't show. Click the apply button to display it.
+- Grand total will also be updated.
+- After applying the coupon, the input and button will be hidden.
+- Show an alert for an invalid coupon.
+- Avoid using lorem ipsum text.
+- Make mobile and desktop responsive.
+- Use CSS framework.
+
+---
+
+Questions:
+1. Multiple seat selection.
+2. Couple 20 space issue.
+3. Should the grand total display before applying the coupon?
+
+---
